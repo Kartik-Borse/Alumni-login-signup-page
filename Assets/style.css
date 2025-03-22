@@ -88,3 +88,21 @@ a {
     justify-content: center;
     gap: 3rem;
 }
+@media screen and (max-width: 600px) {
+    body {
+        flex-direction: column;
+        height: auto;
+        padding: 10px;
+    }
+    .container {
+        width: 90%;
+        padding: 15px;
+    }
+    button, input, select {
+        width: 100%;
+    }
+    .AluStu_tag {
+        flex-direction: column;
+        gap: 1rem;
+    }
+}
