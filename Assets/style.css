@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    background-image: url(alumni1.jpg);
+    background-size:cover
+}
+.container {
+    width: 350px;
+    background: #dbe8d8;
+    padding: 20px;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    text-align: center;
+}
+.form-container {
+    display: none;
+    flex-direction: column;
+    background: #dbe8d8;
+    padding: 15px;
+    border-radius: 8px;
+    transition: left 0.5s ease-in;
+}
+.active {
+    display: flex;
+}
+.hidden {
+    display: none;
+}
+button {
+    width: 80%;
+    /* width:200px; */
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #b72323;
+    border-radius: 5px;
+    color:brown;
+    
+}
+input{
+    width: 73%;
+    /* width:200px; */
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid ;
+    border-radius: 5px;
+
+}
+input:active{
+    outline:    1px solid  lightgreen;
+}
+select{
+    width:80%;
+    padding: 10px;
+    margin: 10px 0;
+    /* border: 1px solid #b72323; */
+    border: 1px solid ;
+    border-radius: 5px;
+}
+button {
+    background: yellowgreen;
+    color: white;
+    border: none;
+    cursor: pointer;
+    
+
+}
+
+button:hover {
+    background: #218838;
+}
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+#passout,#ongoing{
+    width:15px;
+    
+   
+}
+.AluStu_tag{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+}
